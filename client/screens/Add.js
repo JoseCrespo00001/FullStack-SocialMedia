@@ -3,9 +3,9 @@ import {View,Text} from 'react-native'
 
 const Add = () => {
   return (
-    <view>
+    <View>
         <Text>hola add</Text>
-    </view>
+    </View>
   )
 }
 

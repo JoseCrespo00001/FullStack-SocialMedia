@@ -9,7 +9,7 @@ const posts = [
         description:'“Your Rainbow Panorama” is a Rainbow-coloured glass walkway on the roof of the Danish art museum ARoS Aarhus Kuntsmuseum, by Danish-Icelandic artist Olafur Eliasson.',
         author:'Danish-Icelandic',
         image: 'https://i.pinimg.com/564x/89/30/b0/8930b02ee1d9efaaf0a40328289d0926.jpg',
-        like: 1,
+        like: 233,
         createAt: '2024-06-01T00:00.000Z'
         
     },
