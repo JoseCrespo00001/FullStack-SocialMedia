@@ -10,8 +10,9 @@ This is an Expo project that demonstrates a SocialPost is a mobile application d
 - Intuitive and attractive design for an optimal user experience.
 
 ## Screenshots
-
-<img width="1115" alt="Captura de pantalla 2024-05-08 a la(s) 03 13 37" src="https://github.com/JoseCrespo00001/Face-Id-Expo/assets/123144789/24247912-bde6-4443-8a57-45a63bb2b0ad">
+![696shots_so](https://github.com/JoseCrespo00001/FullStack-SocialMedia/assets/123144789/7e7b87fd-cd1e-4164-bc30-794beaf85374)
+![438shots_so](https://github.com/JoseCrespo00001/FullStack-SocialMedia/assets/123144789/12f79efb-c305-48f4-8439-a6474d9fad4d)
+![998shots_so](https://github.com/JoseCrespo00001/FullStack-SocialMedia/assets/123144789/bb048ec4-8c45-4c2f-896c-c922b446c1c7)
 
 ## Getting Started
 
