@@ -9,7 +9,7 @@ const posts = [
         description:'“Your Rainbow Panorama” is a Rainbow-coloured glass walkway on the roof of the Danish art museum ARoS Aarhus Kuntsmuseum, by Danish-Icelandic artist Olafur Eliasson.',
         author:'Danish-Icelandic',
         image: 'https://i.pinimg.com/564x/89/30/b0/8930b02ee1d9efaaf0a40328289d0926.jpg',
-        like: 233,
+        like: 1,
         createAt: '2024-06-01T00:00.000Z'
         
     },
@@ -44,8 +44,13 @@ const resolvers = {
                 //nueva fecha que se genera en el momento del new post
                 createAt: new Date().toISOString()
             };
-            posts.push(newPost);
-            return newPost;
+            // Intentar agregar el post al array
+            try {
+                posts.push(newPost);
+                return newPost;
+            } catch (error) {
+                throw new Error("Error al agregar el post: " + error.message);
+            }
         },
 
         deletePost:(_, {id}) => {

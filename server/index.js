@@ -54,6 +54,8 @@ const server = new ApolloServer({
     resolvers
 })
 
+
+// regresa una promesa
 server.listen().then(({url}) => {
     console.log(`Server ready at ${url}`)
 })

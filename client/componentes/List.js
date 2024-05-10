@@ -3,15 +3,15 @@ import {SafeAreaView, ScrollView,Text, View} from 'react-native'
 import Card from './Card'
 // copio la query desde la pagina que sabes que funciona 
 const GET_POSTS = gql `
-    query GetPosts {
+    query GetPost {
         posts {
-            createAt
-            author
-            description
-            id
-            image
-            like
-            title
+        id
+        author
+        createAt
+        description
+        image
+        like
+        title
         }
     }
 `
@@ -22,7 +22,7 @@ export default function List() {
     if(loading) return <Text>Loading</Text>
     if(error) return <Text>Error</Text>
 
-    console.log(data)
+   // console.log(data)
     
     return(
         <SafeAreaView>
